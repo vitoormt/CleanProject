@@ -1,0 +1,21 @@
+@import './inicio.css';
+@import './menu.css';
+@import './footer.css';
+@import './sobre.css';
+@import './produto.css';
+@import './login.css';
+
+
+body {
+    font-family: 'Fira Sans', Arial, sans-serif;
+    margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0px;
+    padding: 0px;
+}

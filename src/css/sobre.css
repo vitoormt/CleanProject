@@ -1,0 +1,31 @@
+.content-sobre {
+    max-width: 1200px;
+    padding: 20px 40px;
+    margin: 0 auto;
+}
+
+.content-sobre p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title-sobre {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 10px;
+}
+
+.img-sobre {
+    max-width: 500px;
+    justify-self: center;
+    align-self: center;
+}
+
+.texto2-sobre {
+    grid-column: 1 / -1;
+}

@@ -1,0 +1,85 @@
+ /*.background-footer {
+  background: #787878;
+} */
+
+.footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* color: #fff; */
+}
+
+.footer-nome-title {
+  font-size: 32px;
+}
+
+.footer-nome-descricao {
+  font-weight: 400;
+}
+
+.footer-informacoes ul {
+  margin-top: 24px;
+  padding: 0px;
+  list-style: none;
+}
+
+.footer-informacoes a {
+  text-decoration: none;
+  color: #2e2e2e;
+}
+
+.footer-informacoes a:hover {
+  color: #000;
+  text-decoration: underline rgb(255, 0, 119) 1.5px;
+}
+
+.footer-contato {
+  position: relative;
+}
+
+.footer-contato-dados {
+  margin-top: 24px;
+}
+
+.footer-contato-email-telefone {
+  margin: 0px;
+  line-height: 32px;
+}
+
+.footer-contato-endereco {
+  margin: 0;
+  margin-top: 32px;
+}
+
+.footer-contato-endereco::before {
+  content: "";
+  position: absolute;
+  width: 220px;
+  height: 1px;
+  background: #ccc;
+  top: 135px;
+  left: 0;
+}
+
+.footer-contato-cidade {
+  margin: 0;
+}
+
+.footer-icons {
+  margin-top: 30px;
+ display: flex;
+ justify-content: space-between;
+}
+
+.footer-icons::before {
+  content: "";
+  position: absolute;
+  width: 220px;
+  height: 1px;
+  background: #ccc;
+  top: 220px;
+  left: 0;
+}
